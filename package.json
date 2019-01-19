@@ -1,0 +1,15 @@
+{
+  "name": "jimgerth-kleinanzeigen",
+  "version": "1.0.0",
+  "description": "Kleinanzeigen Website für den Informatik Unterricht",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jim Gerth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
