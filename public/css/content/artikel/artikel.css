@@ -1,0 +1,8 @@
+@import "button.css";
+@import "text.css";
+
+.artikel {
+  background-color: rgba(0, 0, 0, 0.075);
+  margin: 20px;
+  padding: 20px;
+}

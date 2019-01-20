@@ -1,0 +1,19 @@
+.artikel a {
+  text-decoration: none;
+  color: black;
+}
+
+.artikel h1 {
+  font-size: 1.7em;
+}
+
+.artikel .beschreibung {
+  
+}
+
+.artikel .preis::after {
+  content: ' €';
+}
+.artikel .preis, .artikel .preis::after {
+  font-style: italic;
+}
