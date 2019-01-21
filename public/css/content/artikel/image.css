@@ -1,0 +1,14 @@
+.artikel .image {
+  background-image: url('https://via.placeholder.com/50?text=Bild');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+
+  border-radius: 10px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 175px;
+}
