@@ -5,10 +5,11 @@
 
 .artikel h1 {
   font-size: 1.7em;
+  display: inline;
 }
 
 .artikel .beschreibung {
-  
+
 }
 
 .artikel .preis::after {

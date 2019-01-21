@@ -1,8 +1,17 @@
 @import "button.css";
 @import "text.css";
+@import "img.css";
 
 .artikel {
-  background-color: rgba(0, 0, 0, 0.075);
+  background-color: rgba(0, 0, 0, 0.1);
   margin: 20px;
   padding: 20px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.05);
+  transition: transform 100ms ease-in-out;
+}
+
+.artikel:hover, .artikel:active {
+  transform: scale(1.005);
 }

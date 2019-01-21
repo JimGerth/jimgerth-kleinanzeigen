@@ -1,4 +1,7 @@
 .artikel .button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
   background-color: #FF0064;
   color: white;
   font-size: 1.5em;
