@@ -1,20 +1,26 @@
-.artikel a {
+.artikel .text {
+  flex: 5;
+  padding: 20px;
+}
+
+a {
   text-decoration: none;
   color: black;
 }
 
-.artikel h1 {
+.artikel .text h1 {
   font-size: 1.7em;
   display: inline;
 }
 
-.artikel .beschreibung {
+.artikel .text .beschreibung {
 
 }
 
-.artikel .preis::after {
+.artikel .text .preis::after {
   content: ' €';
 }
-.artikel .preis, .artikel .preis::after {
+.artikel .text .preis, .artikel .text .preis::after {
   font-style: italic;
+  font-weight: bold;
 }
