@@ -4,7 +4,9 @@
   background-size: cover;
   background-position: center;
 
-  border-radius: 10px;
+  border-radius: 15px;
 
   flex: 2;
+
+  box-shadow: 15px 0 15px -15px rgba(0, 0, 0, 0.2);
 }

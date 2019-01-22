@@ -1,6 +1,12 @@
 .artikel .text {
   flex: 5;
-  padding: 20px;
+  padding: 10px;
+}
+
+@media (min-width: 600px) {
+  .artikel .text {
+    padding: 20px;
+  }
 }
 
 a {
@@ -20,6 +26,7 @@ a {
 .artikel .text .preis::after {
   content: ' €';
 }
+
 .artikel .text .preis, .artikel .text .preis::after {
   font-style: italic;
   font-weight: bold;
