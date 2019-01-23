@@ -1,6 +1,6 @@
-@import "artikel/artikel.css";
+@import "article/article.css";
 
-#artikel-liste {
+#article-list {
   list-style-type: none;
   padding: 0;
   margin: 0;

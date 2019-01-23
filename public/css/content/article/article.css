@@ -2,7 +2,7 @@
 @import "text.css";
 @import "image.css";
 
-.artikel {
+.article {
   background-color: rgba(0, 0, 0, 0.075);
   border-radius: 15px;
   box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.05);
@@ -13,6 +13,6 @@
   transition: transform 100ms ease-out;
 }
 
-.artikel:hover, .artikel:active {
+.article:hover, .article:active {
   transform: scale(1.01);
 }

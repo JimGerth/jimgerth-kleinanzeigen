@@ -1,10 +1,10 @@
-.artikel .text {
+.article .text {
   flex: 5;
   padding: 10px;
 }
 
 @media (min-width: 600px) {
-  .artikel .text {
+  .article .text {
     padding: 20px;
   }
 }
@@ -14,20 +14,20 @@ a {
   color: black;
 }
 
-.artikel .text h1 {
+.article .text h1 {
   font-size: 1.7em;
   display: inline;
 }
 
-.artikel .text .beschreibung {
+.article .text .description {
 
 }
 
-.artikel .text .preis::after {
+.article .text .price::after {
   content: ' €';
 }
 
-.artikel .text .preis, .artikel .text .preis::after {
+.article .text .price, .article .text .price::after {
   font-style: italic;
   font-weight: bold;
 }
