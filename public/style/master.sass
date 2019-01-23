@@ -1,0 +1,116 @@
+// @import "header/header.css"
+// @import "content/content.css"
+
+*
+  font-family: sans-serif
+
+html, body
+  padding: 0
+  margin: 0
+
+#wrapper
+  display: flex
+  flex-direction: column
+
+header
+  background-color: red
+  opacity: .9
+  height: 75px
+  position: fixed
+  top: 0
+  left: 0
+  width: 100vw
+
+footer
+  background-color: blue
+  height: 200px
+  flex: 1
+
+#content
+  background-color: green
+  flex: 1
+  margin-top: 75px
+
+#article-list
+  background-color: yellow
+  margin: 0
+  padding: 10px
+  list-style: none
+
+  display: flex
+  flex-wrap: wrap
+  align-content: flex-start
+  justify-content: space-around
+
+.article
+  background-color: orange
+  height: 100px
+  margin: 10px
+
+  display: flex
+
+.image
+  flex: 1
+  // height: 0
+  // position: relative
+  background-image: url('https://picsum.photos/500/?random')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+// .image::after
+//   content: ""
+//   display: block
+//   padding-bottom: 100%
+//   background-image: url('https://picsum.photos/500/?random')
+//   background-repeat: no-repeat
+//   background-position: center
+//   background-size: cover
+
+.text
+  background-color: navy
+  flex: 3
+  display: flex
+  flex-direction: column
+
+.name
+  margin: 0
+  background-color: green
+  flex: 1
+
+.description
+  margin: 0
+  background-color: orange
+  flex: 1
+
+.price-and-button
+  background-color: red
+  flex: 1
+  display: flex
+
+.price
+  margin: 0
+  background-color: orangered
+  flex: 1
+
+.button
+  background-color: blue
+  flex: 1
+
+@media (max-width: 750px)
+  .article
+    width: 100%
+
+  .description
+    display: none
+
+  .article
+    flex-direction: row
+
+@media (min-width: 750px) and (max-width: 1000px)
+  .article
+    width: 46%
+
+@media (min-width: 1000px)
+  .article
+    width: 30%
