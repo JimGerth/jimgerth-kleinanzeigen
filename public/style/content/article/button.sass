@@ -1,0 +1,23 @@
+.article .button
+  color: white
+  background-color: #FF0064
+  font-size: 1.5em
+  font-weight: bold
+
+  display: inline-block
+  float: right
+  padding: .25em
+
+  border-radius: 5px
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2)
+
+  transition: transform 100ms ease-out, box-shadow 100ms ease-in-out
+
+.article .button:hover
+  transform: scale(1.05)
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15)
+
+.article .button:active
+  transform: scale(0.95)
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25)
+  transition: transform 50ms ease-out, box-shadow 50ms ease-in-out
