@@ -1,3 +1,107 @@
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+}
+
+.article .button {
+  color: white;
+  background-color: #FF0064;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: inline-block;
+  float: right;
+  padding: 0.25em;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  transition: transform 100ms ease-out, box-shadow 100ms ease-in-out;
+}
+
+.article .button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.article .button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  transition: transform 50ms ease-out, box-shadow 50ms ease-in-out;
+  cursor: grabbing;
+}
+
+.article .text {
+  flex: 5;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.article .text h1 {
+  font-size: 1.7em;
+  display: inline;
+}
+
+.article .text .description {
+  margin: 20px 0 20px 0;
+}
+
+.article .text .price {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.article .image {
+  background-image: url("https://picsum.photos/500/?random");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 15px 0 15px -15px rgba(0, 0, 0, 0.2);
+}
+
+.article {
+  background-color: rgba(0, 0, 0, 0.075);
+  border-radius: 15px;
+  box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  margin: 20px;
+  transition: transform 100ms ease-out;
+  cursor: pointer;
+}
+
+.article:hover, .article:active {
+  transform: scale(1.01);
+}
+
+#article-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  height: 300vh;
+  margin-top: 150px;
+}
+
 * {
   font-family: sans-serif;
 }
@@ -13,7 +117,6 @@ html, body {
 }
 
 header {
-  background-color: red;
   opacity: 0.9;
   height: 75px;
   position: fixed;
@@ -23,19 +126,16 @@ header {
 }
 
 footer {
-  background-color: blue;
   height: 200px;
   flex: 1;
 }
 
 #content {
-  background-color: green;
   flex: 1;
   margin-top: 75px;
 }
 
 #article-list {
-  background-color: yellow;
   margin: 0;
   padding: 10px;
   list-style: none;
@@ -46,8 +146,6 @@ footer {
 }
 
 .article {
-  background-color: orange;
-  height: 100px;
   margin: 10px;
   display: flex;
 }
@@ -60,7 +158,6 @@ footer {
 }
 
 .text {
-  background-color: navy;
   flex: 3;
   display: flex;
   flex-direction: column;
@@ -68,30 +165,20 @@ footer {
 
 .name {
   margin: 0;
-  background-color: green;
   flex: 1;
 }
 
 .description {
   margin: 0;
-  background-color: orange;
   flex: 1;
 }
 
 .price-and-button {
-  background-color: red;
-  flex: 1;
   display: flex;
 }
 
 .price {
   margin: 0;
-  background-color: orangered;
-  flex: 1;
-}
-
-.button {
-  background-color: blue;
   flex: 1;
 }
 
@@ -108,12 +195,12 @@ footer {
     flex-direction: row;
   }
 }
-@media (min-width: 750px) and (max-width: 1000px) {
+@media (min-width: 750px) and (max-width: 1250px) {
   .article {
     width: 46%;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1250px) {
   .article {
     width: 30%;
   }

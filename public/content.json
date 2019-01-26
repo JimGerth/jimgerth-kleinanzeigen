@@ -1,0 +1,109 @@
+{
+  "articles": [
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 3,
+      "price-cents": 50
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 10,
+      "price-cents": 0
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 159,
+      "price-cents": 99
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 5,
+      "price-cents": 0
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 12,
+      "price-cents": 75
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 3,
+      "price-cents": 50
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 10,
+      "price-cents": 0
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 159,
+      "price-cents": 99
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 5,
+      "price-cents": 0
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 12,
+      "price-cents": 75
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 3,
+      "price-cents": 50
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 10,
+      "price-cents": 0
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 159,
+      "price-cents": 99
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 5,
+      "price-cents": 0
+    },
+    {
+      "image-link": "https://picsum.photos/500/?random",
+      "name": "Artikel Name",
+      "description": "dolor sint irure enim quorum velit magna nisi dolor culpa malis quis ipsum labore",
+      "price-euros": 12,
+      "price-cents": 75
+    }
+  ]
+}
