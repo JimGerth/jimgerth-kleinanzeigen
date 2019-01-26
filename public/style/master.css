@@ -10,7 +10,8 @@ header nav ul li a {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.25);
   position: fixed;
   z-index: 100;
   top: 0;
@@ -22,10 +23,9 @@ header {
   align-items: center;
 }
 header h1 {
-  color: white;
+  color: #FF0064;
   flex: 1;
   text-transform: uppercase;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 header h1::first-letter {
   font-size: 1.5em;
@@ -34,12 +34,12 @@ header h1::first-letter {
 .article .button {
   color: white;
   background-color: #FF0064;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
   display: inline-block;
   float: right;
   padding: 0.25em;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   transition: transform 100ms ease-out, box-shadow 100ms ease-in-out;
 }
@@ -58,7 +58,7 @@ header h1::first-letter {
 
 .article .text {
   flex: 5;
-  padding: 20px;
+  padding: 15px;
 }
 
 a {
@@ -72,7 +72,7 @@ a {
 }
 
 .article .text .description {
-  margin: 20px 0 20px 0;
+  margin: 15px 0 15px 0;
 }
 
 .article .text .price {
@@ -87,6 +87,12 @@ a {
   background-position: center;
   border-radius: 15px;
   box-shadow: 15px 0 15px -15px rgba(0, 0, 0, 0.2);
+  transition: transform 100ms ease-out, box-shadow 150ms ease-in-out;
+}
+
+.article .image:hover {
+  transform: scale(1.05);
+  box-shadow: 20px 0 20px -20px rgba(0, 0, 0, 0.25);
 }
 
 .article {
@@ -95,12 +101,13 @@ a {
   box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.05);
   display: flex;
   margin: 20px;
-  transition: transform 100ms ease-out;
+  transition: transform 100ms ease-out, box-shadow 150ms ease-in-out;
   cursor: pointer;
 }
 
 .article:hover, .article:active {
-  transform: scale(1.01);
+  transform: scale(1.015);
+  box-shadow: 0 25px 25px -25px rgba(0, 0, 0, 0.1);
 }
 
 #article-list {
@@ -121,20 +128,12 @@ a {
 html, body {
   padding: 0;
   margin: 0;
+  background-color: #FEFEFE;
 }
 
 #wrapper {
   display: flex;
   flex-direction: column;
-}
-
-header {
-  opacity: 0.9;
-  height: 75px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
 }
 
 footer {
