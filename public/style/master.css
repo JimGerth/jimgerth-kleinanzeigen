@@ -73,6 +73,8 @@ a {
 
 .article .text .description {
   margin: 15px 0 15px 0;
+  height: 75px;
+  overflow: scroll;
 }
 
 .article .text .price {
@@ -100,9 +102,25 @@ a {
   border-radius: 15px;
   box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.05);
   display: flex;
-  margin: 20px;
+  margin: 15px;
+  box-sizing: border-box;
   transition: transform 100ms ease-out, box-shadow 150ms ease-in-out;
   cursor: pointer;
+}
+@media (max-width: 900px) {
+  .article {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1300px) {
+  .article {
+    width: 45%;
+  }
+}
+@media (min-width: 1300px) {
+  .article {
+    width: 30%;
+  }
 }
 
 .article:hover, .article:active {
@@ -156,11 +174,6 @@ footer {
   justify-content: space-around;
 }
 
-.article {
-  margin: 10px;
-  display: flex;
-}
-
 .image {
   background-image: url("https://picsum.photos/500/?random");
   background-repeat: no-repeat;
@@ -176,7 +189,6 @@ footer {
 
 .name {
   margin: 0;
-  flex: 1;
 }
 
 .description {
@@ -191,30 +203,6 @@ footer {
 .price {
   margin: 0;
   flex: 1;
-}
-
-@media (max-width: 750px) {
-  .article {
-    width: 100%;
-  }
-
-  .description {
-    display: none;
-  }
-
-  .article {
-    flex-direction: row;
-  }
-}
-@media (min-width: 750px) and (max-width: 1250px) {
-  .article {
-    width: 46%;
-  }
-}
-@media (min-width: 1250px) {
-  .article {
-    width: 30%;
-  }
 }
 
 /*# sourceMappingURL=master.css.map */
