@@ -8,15 +8,15 @@
   box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.05)
 
   display: flex
-  margin: 15px
+  margin: 10px
   box-sizing: border-box
 
   @media (max-width: 900px)
     width: 100%
   @media (min-width: 900px) and (max-width: 1350px)
-    width: 45%
+    width: calc(50% - 20px)
   @media (min-width: 1350px)
-    width: 30%
+    width: calc(33% - 20px)
 
   transition: transform 100ms ease-out, box-shadow 150ms ease-in-out
 
