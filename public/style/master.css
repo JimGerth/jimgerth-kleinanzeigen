@@ -117,12 +117,12 @@ header h1::first-letter {
     width: 100%;
   }
 }
-@media (min-width: 900px) and (max-width: 1300px) {
+@media (min-width: 900px) and (max-width: 1350px) {
   .article {
     width: 45%;
   }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1350px) {
   .article {
     width: 30%;
   }
