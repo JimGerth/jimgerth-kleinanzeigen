@@ -1,8 +1,25 @@
+header:hover
+  nav
+    right: 0
+
+header nav
+  position: fixed
+  top: 0
+  bottom: 0
+  right: -100%
+
+  background-color: white
+  opacity: .95
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .2)
+
+  transition: right 200ms ease-in-out
+
 header nav ul
   list-style-type: none
-  padding: 0
+  padding: 10px
   margin: 0
 
-header nav ul li a
-  text-decoration: none
-  color: black
+header nav ul li
+  font-size: 2em
+  padding: 0
+  margin: 10px 30px
