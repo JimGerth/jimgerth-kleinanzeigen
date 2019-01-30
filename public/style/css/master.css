@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Catamaran|Heebo|Montserrat");
 header:hover nav {
   left: 75vw;
+  opacity: 0.95;
 }
 
 header nav {
   position: fixed;
   top: 0;
+  right: 0;
   bottom: 0;
   left: 100vw;
-  right: 0;
   background-color: white;
-  opacity: 0.95;
+  opacity: 0;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  transition: left 200ms ease-in-out;
+  transition: left 200ms ease-in-out, opacity 100ms ease-in-out;
 }
 
 header nav ul {
