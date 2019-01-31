@@ -24,9 +24,11 @@ header nav
     margin: 0
 
     li
-    font-size: 2em
     padding: 0
     margin: 10px 30px
+    font-size: 2em
+    @media (max-width: 900px)
+      text-align: center
 
     #close-button
       position: absolute
@@ -35,8 +37,8 @@ header nav
       height: 50px
       width: 50px
 
-      // background: url('../../../assets/close-button-round.png')
-      background: url('../../../assets/close-button-hard.png')
+      background: url('../../../assets/close-button-round.png')
+      // background: url('../../../assets/close-button-hard.png')
       background-repeat: no-repeat
       background-size: contain
       background-position: center
