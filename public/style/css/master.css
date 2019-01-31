@@ -34,7 +34,7 @@ header nav ul #close-button {
   right: 10px;
   height: 50px;
   width: 50px;
-  background: url("../../../assets/close-button.png");
+  background: url("../../../assets/close-button-hard.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -68,7 +68,7 @@ header #burger-button {
   top: 0;
   height: 100%;
   width: 50px;
-  background: url("../../../assets/burger-button.png");
+  background: url("../../../assets/burger-button-hard.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -200,7 +200,8 @@ footer {
 }
 
 * {
-  font-family: Jua, Do Hyeon, Heebo, Montserrat, sans-serif;
+  font-family: Do Hyeon, Heebo, Montserrat, sans-serif;
+  border-radius: 0 !important;
 }
 
 html, body {
