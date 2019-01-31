@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Catamaran|Heebo|Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Catamaran|Heebo|Montserrat|Do+Hyeon|Jua|");
 header:hover nav {
   left: 75vw;
   opacity: 0.95;
 }
 @media (max-width: 900px) {
   header:hover nav {
-    left: 60vw;
+    left: 0vw;
   }
 }
 
@@ -20,17 +20,24 @@ header nav {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transition: left 200ms ease-in-out, opacity 100ms ease-in-out;
 }
-
 header nav ul {
   list-style-type: none;
   padding: 10px;
   margin: 0;
-}
-
-header nav ul li {
   font-size: 2em;
   padding: 0;
   margin: 10px 30px;
+}
+header nav ul #close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  background: url("../../../assets/close-button.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 header {
@@ -53,6 +60,18 @@ header h1 {
 }
 header h1::first-letter {
   font-size: 1.5em;
+}
+header #burger-button {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  background: url("../../../assets/burger-button.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .article .button {
@@ -181,7 +200,7 @@ footer {
 }
 
 * {
-  font-family: Heebo, Montserrat, sans-serif;
+  font-family: Jua, Do Hyeon, Heebo, Montserrat, sans-serif;
 }
 
 html, body {
