@@ -24,12 +24,14 @@ header nav ul {
   list-style-type: none;
   padding: 10px;
   margin: 0;
+}
+header nav ul li {
   padding: 0;
   margin: 10px 30px;
   font-size: 2em;
 }
 @media (max-width: 900px) {
-  header nav ul {
+  header nav ul li {
     text-align: center;
   }
 }
@@ -144,11 +146,40 @@ header #burger-button {
   border-radius: 15px;
   box-shadow: 15px 0 15px -15px rgba(0, 0, 0, 0.2);
   transition: transform 100ms ease-out, box-shadow 150ms ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
-
 .article .image:hover {
   transform: scale(1.05);
   box-shadow: 20px 0 20px -20px rgba(0, 0, 0, 0.25);
+}
+.article .image:hover .gallery-button {
+  opacity: 1;
+}
+.article .image .gallery-button {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  border-radius: 100%;
+  transition: transform 100ms ease-in-out, opacity 200ms ease-in-out 50ms;
+}
+.article .image .gallery-button:hover {
+  transform: scale(1.2);
+}
+.article .image .gallery-button-left {
+  background-image: url("../../../../assets/arrow-left.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.article .image .gallery-button-right {
+  background-image: url("../../../../assets/arrow-right.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
 }
 
 .article {

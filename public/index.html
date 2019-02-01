@@ -38,7 +38,10 @@
           <script id="article-template" type="text/x-handlebars-template">
             {{#each articles}}
               <li class="article">
-                <div class="image"></div>
+                <div class="image">
+                  <div class="gallery-button gallery-button-left"></div>
+                  <div class="gallery-button gallery-button-right"></div>
+                </div>
                 <div class="text">
                   <h3 class="name">{{this.name}}</h3>
                   <p class="description">{{this.description}}</p>
