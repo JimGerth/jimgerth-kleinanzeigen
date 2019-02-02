@@ -10,6 +10,10 @@ function setup() {
   let templateSource = $('#article-template').html();
   let template = Handlebars.compile(templateSource);
   $('#article-list').html(template(articles));
+
+  $(window).scroll(event => {
+    console.log(event);
+  });
 }
 
 function draw() {
